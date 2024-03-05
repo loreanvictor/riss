@@ -5,29 +5,44 @@
 
 <br>
 
-RISS (Really Intuitive Social Syndication) is a proposed extension to [RSS][rss] to improve distribution of content with social context (e.g. likes, comments, shares, etc.). The idea is that anyone should be able to create, consume and interact with content on the internet without being confined to centralised, walled-off platforms.
+RISS (Really Intuitive Social Syndication) is a collection of independently proposed extensions for [RSS][rss] to improve distribution of content with social context (e.g. likes, comments, shares, etc.). The idea is that anyone should be able to create, consume and interact with content on the internet without being confined to centralised, walled-off platforms.
+
+<br>
 
 ## Why?
 
-### Why is social content important?
+- Social content reduces entry barrier, encouraging more people to actively share their ideas, thoughts, content in general.
+- Centralised platforms fragment the web though, hindering circulation of content, ideas, and information.
+- On centralised platforms, "what gets published" and "what gets recommended" are intertwined, making it difficult to regulate them separately (speech vs reach).
+- A federated approach is also potentially not the solution, as it probably ends up where email ended up: pretty centrally controlled.
+- In both a centralised and a federated solution, people don't own their content and social activities.
 
-Interacting to existing content is far easier than creating new content. This social aspect reduces the barrier to entry for content creation, and is a key part of success of social media platforms. It democratises content creation and encourages more active participation in the internet.
+<br>
 
-### Why is it important to decentralise?
+> Read more about the topic [here][og-gist], and read some interesting takes on it [here][hn-post].
 
-Fragmantation is terrible for the internet in general:
--  I will miss out on content and creators that I would like unless I actively check multiple platforms.
--  Discussion on a topic in one platform is disconnected from the same discussion on another, impeding circulation of ideas and thoughts.
+<br>
 
-People don't own their own content:
-- I can't take my content, my likes, comments, followers, etc. and move to another platform if the changes to one platform aren't to my liking.
-- Platforms should not have a right to moderate what I say or whether people who are interested in hearing that get to hear that. They should, however get the right to moderate what they propagate and distribute. This separation is not possible when content creation and propagation are intertwined in the same platform.
+## Extensions
 
-### Why isn't the Fediverse good enough?
+RISS is made up of the following extensions to RSS, enabling a distributed social network:
 
-[The fediverse][fediverse] requires me to distribute my content (or some "node" or "server" to do that on my behalf), which increases the cost of participation, lowering to a less decentralised (well, intentionally "federated" situation). This is analogous to EMail services, where the federated design led to a few large providers dominating and controlling the market.
+- **Social Context**: Adds social context to RSS items, so they can specify if they are an interaction with some other content / feed.
+- **Aggregated Feeds**: Proposes a complentary standard for a feed representing some aggregation of items in multiple other feeds.
+- **Social Hubs**: Proposes a standard method for easily _notifying_ the owner of some content of interactions with the content, optionally supporting a method for retrieving an aggregation of interactions as well (using **Aggregated Feeds**).
+- **Feed Linking**: Proposes a standard method for linking feeds to each other, allowing a user to have multiple feeds (potentially on different platforms) while consumers can verify that the feeds belong to the same user.
 
-Read more about the topic [here][hn-post] and [here][og-gist].
+<br>
+
+## Benefits
+
+These extensions not only address the issues mentioned above, but also provide a number of other benefits:
+
+- *Portability*: through **Social Context**, a user's social presence is their feed, which they can easily move around. Additionally, either by controlling the URL of their feed, or by additionally leveraging **Feed Linking**, creators can move between platforms without affecting their audience.
+- *Multiplatform*: With **Feed Linking**, creators can be active on multiple platforms without fragmenting their audience or having to convert them across platforms.
+- *Privacy Control*: With **Social Context**, users can control access to their social activity with the same granularity of controlling access to any other resouce on the web. Combined with **Feed Linking**, they can even break their activity into different feeds with independent access control.
+- *Exposure Control*: Through **Social Hubs**, users can explicitly control whether they want to notify authors about their interaction. Authors can similarly opt-out of being notified without affecting anyones ability to interact with their content.
+- *Aggregation Choice*: With **Aggregated Feeds**, combined with **Social Context**, all recommendation and aggregation mechanisms can be standardised mappings of user feeds to aggregated feeds, enabling interoperability between different recommendation services and various tools and platforms.
 
 
 [rss]: https://www.rssboard.org/rss-specification
