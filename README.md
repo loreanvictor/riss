@@ -58,6 +58,26 @@ Aggregating content from multiple feeds will be a recurring need in such a netwo
 
 <br>
 
+## Design Goals
+
+- RISS is social: it aims to facilitate development and interoperability of tools that lower barrier to entry for content creation via social means, i.e. interaction with other content.
+- RISS is distributed: it aims to create an interoperable network wherein participation requires only the ability to host a static file at a set URL. All additional features should be optional, and have minimum requirements in terms of computational resources and trust.
+- RISS is about content syndication: interactions are content, users are feeds of content. If a problem can't be modelled as such, it is possible that it is out of RISS's scope.
+
+<br>
+
+## Document Status
+
+RISS is a work in progress. Any and all feedback on the proposals and the project goals are more than appreciated. This includes, but is not limited to:
+
+- Feedback on how a proposal would affect complying tools and services,
+- Feedback on how a proposal can be improved,
+- Feedback on existing standards that might better complement proposed extensions,
+- Feedback on why some proposal isn't needed, or should be out of scope,
+- Feedback on new proposals that should be part of RISS, as they are essential in achieving the design goals.
+
+<br>
+
 ## Extensions
 
 RISS is made up of the following extensions to RSS, enabling a distributed social network:
