@@ -19,11 +19,11 @@ RISS (Really Intuitive Social Syndication) is a collection of independently prop
 
 <br>
 
-Subsequently, I suspect the solution will be some distributed network where benefits of social platforms are retained, but barrier to independent participation is as low as hosting static content (e.g. personal blogging).
+Subsequently, an ideal platform would be a distributed network where benefits of social platforms are retained, but barrier to independent participation is as low as hosting static content (e.g. personal blogging).
 
 <br>
 
-> Read more about the topic [here][og-gist], and read some interesting takes on it [here][hn-post].
+> Read more about the motivation [here][motivation], and more about this topic [here][og-gist], and read some interesting takes on it [here][hn-post].
 
 <br>
 
@@ -34,7 +34,7 @@ The main idea behind RISS is ***Interaction as Content***:
 - Any interaction is content, and should be treated as such.
 - This means interactions can be published and syndicated as any other static web content, i.e. via [RSS feeds][rss].
 
-For example, I see a post that I like. It might be some blog post on a personal blog, some post on Reddit or Hacker News, some YouTube video, etc. I can "like it", as in publishing a post in my own feed that says "I liked this post". I can even comment on it, which will be another post by me, with a link (perhaps in the post, and in my feed, to the original post). I might even follow the original author, which again will be a post in my feed.
+For example, I see a post that I like. It might be some blog post on a personal blog, some post on Reddit or Hacker News, some YouTube video, etc. I can "like it", as in publishing a post in my own feed that says "I liked this post". I can even comment on it, which will be another post by me, with a link (perhaps in the post, and in my feed) to the original post. I might even follow the original author, which again will be a post in my feed with a link to their corresponding feed.
 
 The core extension of RISS is the **[Social Context][social-context]** extension, which specifies how a feed entry, which is the result of interaction with some other content, to specify if that in a standardized manner. This provides the following benefits:
 - **Distributed Network**: participation in the network merely requires the ability to host a static file at a set URL (the feed).
@@ -108,6 +108,8 @@ The following existing standards also complement tools built on RISS, so it is a
 [fediverse]: https://en.wikipedia.org/wiki/Fediverse
 [hn-post]: https://news.ycombinator.com/item?id=39548343
 [og-gist]: https://gist.github.com/loreanvictor/bddd8824c744024d338e935bd7e96707
+
+[motivation]: ./motivation.md
 
 [social-context]: ./proposals/social-context.md
 [aggregate-feeds]: ./proposals/aggregate-feeds.md
