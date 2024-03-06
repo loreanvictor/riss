@@ -78,7 +78,7 @@ RISS is a work in progress. Any and all feedback on the proposals and the projec
 
 <br>
 
-## Extensions
+## Proposed Extensions
 
 RISS is made up of the following extensions to RSS, enabling a distributed social network:
 
