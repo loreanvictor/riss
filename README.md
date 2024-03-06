@@ -27,23 +27,21 @@ RISS (Really Intuitive Social Syndication) is a collection of independently prop
 
 RISS is made up of the following extensions to RSS, enabling a distributed social network:
 
-- **Social Context**: Adds social context to RSS items, so they can specify if they are an interaction with some other content / feed.
-- **Aggregated Feeds**: Proposes a complentary standard for a feed representing some aggregation of items in multiple other feeds.
-- **Social Hubs**: Proposes a standard method for easily _notifying_ the owner of some content of interactions with the content, optionally supporting a method for retrieving an aggregation of interactions as well (using **Aggregated Feeds**).
-- **Feed Linking**: Proposes a standard method for linking feeds to each other, allowing a user to have multiple feeds (potentially on different platforms) while consumers can verify that the feeds belong to the same user.
+- **[Social Context][social-context]**: Adds social context to RSS items, so they can specify if they are an interaction with some other content / feed.
+- **[Aggregated Feeds][aggregate-feeds]**: Proposes a complentary standard for a feed representing some aggregation of items in multiple other feeds.
+- **[Social Hubs][social-hubs]**: Proposes a standard method for easily _notifying_ the owner of some content of interactions with the content, optionally supporting a method for retrieving an aggregation of interactions as well (using **Aggregated Feeds**).
+- **[Feed Linking][feed-linking]**: Proposes a standard method for linking feeds to each other, allowing a user to have multiple feeds (potentially on different platforms) while consumers can verify that the feeds belong to the same user.
 
 <br>
 
-## Benefits
+## Complementary Standards
 
-These extensions not only address the issues mentioned above, but also provide a number of other benefits:
+The following existing standards also complement tools built on RISS, so it is adivsable to consider them:
 
-- *Portability*: through **Social Context**, a user's social presence is their feed, which they can easily move around. Additionally, either by controlling the URL of their feed, or by additionally leveraging **Feed Linking**, creators can move between platforms without affecting their audience.
-- *Multiplatform*: With **Feed Linking**, creators can be active on multiple platforms without fragmenting their audience or having to convert them across platforms.
-- *Privacy Control*: With **Social Context**, users can control access to their social activity with the same granularity of controlling access to any other resouce on the web. Combined with **Feed Linking**, they can even break their activity into different feeds with independent access control.
-- *Exposure Control*: Through **Social Hubs**, users can explicitly control whether they want to notify authors about their interaction. Authors can similarly opt-out of being notified without affecting anyones ability to interact with their content.
-- *Aggregation Choice*: With **Aggregated Feeds**, combined with **Social Context**, all recommendation and aggregation mechanisms can be standardised mappings of user feeds to aggregated feeds, enabling interoperability between different recommendation services and various tools and platforms.
+- **[Feed Pagination][rss-page]**: RISS results in large feeds, so it is advisable to use feed pagination to avoid large feeds.
+- **[WebSub][web-sub]**: RISS feeds can be used as WebSub topics, allowing for real-time updates of social activity. This can be combined with **[Social Hubs][social-hubs]** to enable real-time distribution of social interactions while keeping participation cost low.
 
+<br>
 
 [rss]: https://www.rssboard.org/rss-specification
 [rss-page]: https://datatracker.ietf.org/doc/html/rfc5005
@@ -51,3 +49,8 @@ These extensions not only address the issues mentioned above, but also provide a
 [fediverse]: https://en.wikipedia.org/wiki/Fediverse
 [hn-post]: https://news.ycombinator.com/item?id=39548343
 [og-gist]: https://gist.github.com/loreanvictor/bddd8824c744024d338e935bd7e96707
+
+[social-context]: ./proposals/social-context.md
+[aggregate-feeds]: ./proposals/aggregate-feeds.md
+[social-hubs]: ./proposals/social-hubs.md
+[feed-linking]: ./proposals/feed-linking.md
