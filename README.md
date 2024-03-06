@@ -1,4 +1,4 @@
-<br><br>
+<br>
 
 <img src="logo-dark.svg#gh-dark-mode-only" height="36px"/>
 <img src="logo-light.svg#gh-light-mode-only" height="36px"/>
@@ -20,6 +20,41 @@ RISS (Really Intuitive Social Syndication) is a collection of independently prop
 <br>
 
 > Read more about the topic [here][og-gist], and read some interesting takes on it [here][hn-post].
+
+<br>
+
+## Overview
+
+The main idea behind RISS is ***Interaction as Content***:
+
+- Any interaction is content, and should be treated as such.
+- This means interactions can be published and syndicated as any other static web content, i.e. via [RSS feeds][rss].
+
+For example, I see a post that I like. It might be some blog post on a personal blog, some post on Reddit or Hacker News, some YouTube video, etc. I can "like it", as in publishing a post in my own feed that says "I liked this post". I can even comment on it, which will be another post by me, with a link (perhaps in the post, and in my feed, to the original post). I might even follow the original author, which again will be a post in my feed.
+
+The core extension of RISS is the **[Social Context][social-context]** extension, which specifies how a feed entry, which is the result of interaction with some other content, to specify if that in a standardized manner. This provides the following benefits:
+- **Distributed Network**: participation in the network merely requires the ability to host a static file at a set URL (the feed).
+- **Data Portability**: Each user is represented fully by their feed, which can be easily moved between different platforms and hosting providers. As long as the feed URL remains the same, the audience (e.g. the followers) would also not even notice the change.
+- **Granular Privacy**: With this model, access control to social data of a user is reduced to access control of a feed, i.e. a web resource at a set URL. This allows for fine-grained control over who can see what.
+- **Content Ownership**: A user is in full control of their feed and as a result their content and activities. Service providers might enforce policies as to which content they help circulate, but they cannot control the content itself, the audience that is subscribed to it, or the interactions with it.
+
+Note that RSS, and by extension RISS, are inherently pull-based models, affecting speed and ease of content distribution, a problem that can get exacerbated with social content. For example, _who has interacted with my content?_ becomes a hard question as theoretically one would need to pull all existing feeds and filter them for social context to find out.
+
+This problem can however be solved by independent extensions such as **[WebSub][web-sub]** and **[Social Hubs][social-hubs]**:
+
+- Authors can use WebSub to notify their audience of updates to their feed,
+- Users can notify original authors of interactions with their content using Social Hubs.
+
+Users might also have multiple feeds, for example as they are active on multiple platforms, or to further control access to their activity (e.g. keeping posts and likes public while keeping their comments more private). **[Feed Linking][feed-linking]** can be independently adopted to link these feeds in a verifiable and standardised manner:
+
+- Authors can be active on multiple platforms with their feeds linked, without fragmenting their audience,
+- Authors can move to different platforms even when they don't control access to their feed URL, by simply linking their new feed.
+- Authors can break their activity into multiple different feeds with different access control while maintaining their identity.
+
+Aggregating content from multiple feeds will be a recurring need in such a network. **[Aggregate Feeds][aggregate-feeds]** independently proposes a standardisation for that:
+
+- This enables **Social Hubs** to also provide aggregation of interactions in a standardised manner,
+- Combined with **Social Context**, this standardises recommendation algorithms into blackboxes that generate aggregate feeds from a set of input user feeds (since they include all the user's interaction history).
 
 <br>
 
