@@ -1,6 +1,6 @@
 # Motivation
 
-The aim of RISS is facilitate development of interoperable tools, services and platforms that together will constitute a distributed, social network. 
+RISS aims to facilitate development of interoperable tools, services and platforms that together will constitute a distributed, social network. 
 
 <br>
 
