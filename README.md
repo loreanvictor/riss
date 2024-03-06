@@ -23,7 +23,7 @@ Subsequently, an ideal platform would be a distributed network where benefits of
 
 <br>
 
-> Read more about the motivation [here][motivation], and more about this topic [here][og-gist], and read some interesting takes on it [here][hn-post].
+> Read more about the motivation [here][motivation], and more about this topic [here][og-gist], and [here][hn-post].
 
 <br>
 

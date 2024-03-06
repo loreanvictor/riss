@@ -26,7 +26,7 @@ A final downside of centralisation is a regulatory one. Anyone should have the r
 
 <br>
 
-## Why Not Federated?
+## Why Not a Federated Network?
 
 A federated network can alleviate some of the downsides of centralisation. However, "federation" implies still limiting participation, typically due to some resource or trust requirement (typically both). For example current federated protocols like [ActivityPub][activity-pub] are "push-first", meaning a content is not published unless it is pushed to all of its intended audience, which necessarily increases the participation bar both in terms of required resources and in terms of trust.
 
