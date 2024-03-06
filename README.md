@@ -5,17 +5,21 @@
 
 <br>
 
-RISS (Really Intuitive Social Syndication) is a collection of independently proposed extensions for [RSS][rss] to improve distribution of content with social context (e.g. likes, comments, shares, etc.). The idea is that anyone should be able to create, consume and interact with content on the internet without being confined to centralised, walled-off platforms.
+RISS (Really Intuitive Social Syndication) is a collection of independently proposed extensions for [RSS][rss] to improve distribution of content with social context (e.g. likes, comments, shares, etc.). The goal is to facilitate a distributed social network where anyone can easily and independently participate.
 
 <br>
 
 ## Why?
 
-- Social content reduces entry barrier, encouraging more people to actively share their ideas, thoughts, content in general.
+- Social platforms reduce entry barrier to content creation, by making it easy to create content via interacting with existing content.
 - Centralised platforms fragment the web though, hindering circulation of content, ideas, and information.
 - On centralised platforms, "what gets published" and "what gets recommended" are intertwined, making it difficult to regulate them separately (speech vs reach).
 - A federated approach is also potentially not the solution, as it probably ends up where email ended up: pretty centrally controlled.
 - In both a centralised and a federated solution, people don't own their content and social activities.
+
+<br>
+
+Subsequently, I suspect the solution will be some distributed network where benefits of social platforms are retained, but barrier to independent participation is as low as hosting static content (e.g. personal blogging).
 
 <br>
 
