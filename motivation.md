@@ -48,13 +48,16 @@ As mentioned above, in general fragmentation of flow of ideas and information is
 > I find a new video blogger on a video sharing platform. I _subscribe_ to them right there. I now automatically get their content on the microblogging platform I frequent. I also automatically get notified of their podcasts, livestreams and even posts on their personal website on the same microblogging platform.
 
 > **INTERACTION** \
-> I am listening to a song on a music streaming platform. I _share_ the song in the platform. My friends and followers on another microblogging platform, or on a short-video platform, get notified of that, and react to that. I can see their reactions on the music streaming platform.
+> I am listening to a song on a music streaming platform. I _share_ the song in the platform. My friends and followers on another microblogging platform, or on a short-video platform, get notified of that, and react to that. I can see their reactions on the music streaming platform. I later can see the discussion on other platforms and engage as well.
 
 > **CONTENT CREATION** \
-> I see a video essay on a video sharing platform. I write a response on my personal blog, and the discussion continues with users from an online forum and a microblogging platform, all able to see the whole discussion in their own platform of choice.
+> I see a video essay on a video platform. I write a response on my personal blog, and the discussion continues with users from an online forum and a microblogging platform, as well as the video platform itself, all able to see the whole discussion and participate via their own platform of choice.
 
 > **RECOMMENDATION** \
 > I can easily switch between different discovery and recommendation mechanisms, without limiting the social content I am looking through. I could do this before for more generic content: for example I could discover content about tech via a newsletter, via a news website, via a forum, a social network, a video platform, a podcast, etc. Now I get the same for ideas and content discussed in discussions and interactions as well.
+
+> **PORTABILITY** \
+> I want to no longer be active on this photo-sharing platform I used to frequent, and instead be more active on a microblogging platform. I create an account on the microblogging platform and link the two accounts, my followers and friends not even noticing the change (except that I don't post photos as much).
 
 <br>
 
