@@ -26,10 +26,38 @@ A final downside of centralisation is a regulatory one. Anyone should have the r
 
 <br>
 
+## How is this Different From the Fediverse?
+
+The [Fediverse][fediverse] is a "federated" solution, [not a distributed one][fed-v-dist]. In a distributed network, there is no central authority and people can participate with minimum requirements (in case of RISS, to be able to make static content available to others on the web). In a federated network, there are multiple "centers", and participation goes through them.
+
+<br>
+
 ## Why Not a Federated Network?
 
 A federated network can alleviate some of the downsides of centralisation. However, "federation" implies still limiting participation, typically due to some resource or trust requirement (typically both). For example current federated protocols like [ActivityPub][activity-pub] are "push-first", meaning a content is not published unless it is pushed to all of its intended audience, which necessarily increases the participation bar both in terms of required resources and in terms of trust.
 
 The trust requirement specifically has great potential to lead to a particularly centrally conttrolled network. For example, while running an email server is not particularly demanding, the trust requirements are still overall dicated by a few mail providers, and independent participation (i.e. personal email servers) are quite rare as a result.
 
+<br>
+
+## Why Should Non-Technical People Care?
+
+As mentioned above, in general fragmentation of flow of ideas and information is an essential problem affecting anyone. To be more specific, the following use cases would not be possible without a protocol for distributed social networking:
+
+> **DISCOVERY** \
+> I find a new video blogger on a video sharing platform. I _subscribe_ to them right there. I now automatically get their content on the microblogging platform I frequent. I also automatically get notified of their podcasts, livestreams and even posts on their personal website on the same microblogging platform.
+
+> **INTERACTION** \
+> I am listening to a song on a music streaming platform. I _share_ the song in the platform. My friends and followers on another microblogging platform, or on a short-video platform, get notified of that, and react to that. I can see their reactions on the music streaming platform.
+
+> **CONTENT CREATION** \
+> I see a video essay on a video sharing platform. I write a response on my personal blog, and the discussion continues with users from an online forum and a microblogging platform, all able to see the whole discussion in their own platform of choice.
+
+> **RECOMMENDATION** \
+> I can easily switch between different discovery and recommendation mechanisms, without limiting the social content I am looking through. I could do this before for more generic content: for example I could discover content about tech via a newsletter, via a news website, via a forum, a social network, a video platform, a podcast, etc. Now I get the same for ideas and content discussed in discussions and interactions as well.
+
+<br>
+
 [activity-pub]: https://www.w3.org/TR/activitypub/
+[fediverse]: https://en.wikipedia.org/wiki/Fediverse
+[fed-v-dist]: https://en.wikipedia.org/wiki/Distributed_social_network#Differences_between_distributed_and_federated_networks
