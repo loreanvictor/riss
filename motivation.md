@@ -16,7 +16,7 @@ A counter-argument for that sentiment might be the fact that lowering the barrie
 
 ## Why a Distributed Network?
 
-Mainly because centralised networks fragment circulation of ideas, which is again, against "better circulation of ideas and information".
+Mainly because centralised networks fragment circulation of ideas and information.
 
 One tangible symptom of this defect is that centralised platforms will get more "spammy" over time. A centralised platform maintains a monopoly on access and discovery of its content (e.g. search and recommendation). The key strength of such a platform is typically in ease of content creation, which also produces more "noise", a problem that is exacerbated by a lagging access and discovery mechanism. The combination often leads to the platform playing catch-up with its own access and discovery needs and grow more "spammy" as its usage grows, in a self-destructive cycle.
 
