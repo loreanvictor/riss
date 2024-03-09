@@ -28,7 +28,7 @@ A final downside of centralisation is a regulatory one. Anyone should have the r
 
 ## How is this Different From the Fediverse?
 
-The [Fediverse][fediverse] is a "federated" solution, [not a distributed one][fed-v-dist]. In a distributed network, there is no central authority and people can participate with minimum requirements (in case of RISS, to be able to make static content available to others on the web). In a federated network, there are multiple "centers", and participation goes through them.
+The [Fediverse][fediverse] is a "federated" solution, [not a distributed one][fed-v-dist]. In a distributed network, there is no central authority and people can participate with minimum requirements. In a federated network, there are multiple "centers", and participation goes through them.
 
 <br>
 
