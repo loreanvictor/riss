@@ -6,7 +6,7 @@ RISS aims to facilitate development of independent but interoperable tools, serv
 
 ## Why a Social Network?
 
-Because social interaction with other content is one of the most successful "simplifiers" for content creation. Liking something someone else wrote is pretty easy, and with a press of a button, you've created some (tiny) content of your own. Commenting on someone else's post is far easier than writing one from scratch, and so on.
+Because social interaction with existing content is one of the most successful "simplifiers" for content creation. Liking something someone else wrote is pretty easy, and with a press of a button, you've created some (tiny) content of your own. Commenting on someone else's post is far easier than writing one from scratch, and so on.
 
 This essentially democratises content creation on the internet, resulting in more people actively engaged on that front. This is why internet was created to begin with and what it should be all about: better circulation of ideas and information.
 
