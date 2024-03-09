@@ -1,6 +1,6 @@
 # Motivation
 
-RISS aims to facilitate development of interoperable tools, services and platforms that together will constitute a distributed, social network, perhaps consisting of multiple interoperating platforms, tools and even personal websites.
+RISS aims to facilitate development of interoperable tools, services and platforms that together will constitute a distributed, social network.
 
 <br>
 
