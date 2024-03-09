@@ -22,7 +22,7 @@ One tangible symptom of this defect is that centralised platforms will get more 
 
 Another practical downside is fragmentation of audiences and discussions. A viral post is typically cross-posted on multiple platforms, with walled-off discussions and interactions on each. Creators need to actively manage presence on multiple platforms and try to convert their audience from one platform to another to bridge these gaps. Users need to hop between apps to follow their desired content, and so on.
 
-A final downside of centralisation is a regulatory one. Anyone should have the right to say whatever they want (as long as it is not illegal), anyone who is interested in that shoudl have the right to hear that. Companies, on the other hand, should maintain the right to not promote any specific content. These twi rights are intertwined in a centralised platform, making it difficult to regulate them separately (speech vs reach).
+A final downside of centralisation is a regulatory one. Anyone should have the right to say whatever they want (as long as it is not illegal), anyone who is interested in that should have the right to hear that. Companies, on the other hand, should maintain the right to not promote content at their own discretion. These rights are intertwined in a centralised platform, making it difficult to regulate separately (speech vs reach).
 
 <br>
 
