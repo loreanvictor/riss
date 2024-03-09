@@ -1,53 +1,53 @@
 # Motivation
 
-RISS aims to facilitate development of independent but interoperable tools, services and platforms that together will constitute a distributed, social network.
+RISS aims to facilitate development of independent but interoperable tools, services and platforms, that together  constitute a large, distributed, social network.
 
 <br>
 
 ## Why a Social Network?
 
-Because social interaction with existing content is one of the most successful "simplifiers" for content creation. Liking something someone else wrote is pretty easy, and with a press of a button, you've created some (tiny) content of your own. Commenting on someone else's post is far easier than writing one from scratch, and so on.
+Because social interaction with existing content lowers the barrier of active participation in content creation and circulation. It is fairly easy to like, repost or comment on existing content, encouraging more people to actively share ideas and information on the network.
 
-This essentially democratises content creation on the internet, resulting in more people actively engaged in sharing and circulating ideas and information.
-
-A counter-argument for that sentiment might be the fact that lowering the barrier also results in a lot of noise, spam and outright harmful content as well (misinformation, fraud, etc). I personally don't see that as a reason to not further democratise content creation by making it easier and more accessible, but as a reason to focus on the problem of accessing and discovering useful content and separating it from said noise.
+A counter-argument might be that with lowering the barrier more "spam" is also created. While true, I personally don't see this as a reason to keep the entry barrier high, instead as a key challenge to solve. The purpose of the internet is to further facilitate the flow of ideas and informations, and I believe it will keep constantly evolving in that direction.
 
 <br>
 
 ## Why a Distributed Network?
 
-Mainly because centralised networks fragment circulation of ideas and information.
+Because centralised networks fragment circulation of ideas and information. This root cause yields a number of more tangible symptoms:
 
-One tangible symptom of this defect is that centralised platforms will get more "spammy" over time. A centralised platform maintains a monopoly on access and discovery of its content (e.g. search and recommendation). The key strength of such a platform is typically ease of content creation, which also produces more "noise", a problem that is exacerbated by a lagging access and discovery mechanism. The combination often leads to the platform playing catch-up with its own access and discovery needs and grow more "spammy" as its usage grows, in a self-destructive cycle.
+- **Spammy Networks**: Centralised platforms maintain a monopoly on access and discovery of content on their platform, while they mainly drive value through simplifying content creation and not access (e.g. search or discovery). The result is typically accumulation of spam as the platform grows in usage with improvements to access and discovery lagging behind, resulting in the platform getting more _spammy_ over time.
 
-Another practical downside is fragmentation of audiences and discussions. A viral post is typically cross-posted on multiple platforms, with walled-off discussions and interactions on each. Creators need to actively manage presence on multiple platforms and try to convert their audience from one platform to another to bridge these gaps. Users need to hop between apps to follow their desired content, and so on.
-
-A final downside of centralisation is a regulatory one. Anyone should have the right to say whatever they want (as long as it is not illegal), anyone who is interested in that should have the right to hear that. Companies, on the other hand, should maintain the right to not promote content at their own discretion. These rights are intertwined in a centralised platform, making it difficult to regulate separately (speech vs reach).
+- **Fragmentation**: Audiences, discussions, and general flow of content is fragmented into walled-off gardens. Posts get cross-posted, while the discussions they inspire remain isolated. Creators have to maintain presence on multiple platforms, encouraging their audiences to follow them on multiple platforms to bridge the gap. Users need to hop between different platforms to get the content they desire, etc.
+  
+- **Speech vs Reach**: Individuals have the right to say whatever they desire (within legal bounds), their audiences have the right to get notified and hear that, and platforms should have to right to not promote any content solely at their own discretion. In a centralised platform, however, these rights are intertwined, and can't be regulated and enforced independently.
 
 <br>
 
 ## How is this Different From the Fediverse?
 
-The [Fediverse][fediverse] is a "federated" solution, [not a distributed one][fed-v-dist]. In a distributed network, there is no central authority and people can participate with minimum requirements. In a federated network, there are multiple "centers", and participation goes through them.
+The [Fediverse][fediverse] is a "federated" solution, [not a distributed one][fed-v-dist]. In a distributed network, there is no central authority and anyone can participate with minimum requirements. In a federated network, there are multiple "centers", and participation goes through, and is moderated by, them.
 
 <br>
 
 ## Why Not a Federated Network?
 
-A federated network can alleviate some of the downsides of centralisation. However, "federation" implies still limiting participation, typically due to some resource or trust requirement (typically both). For example current federated protocols like [ActivityPub][activity-pub] are "push-first", meaning a content is not published unless it is pushed to all of its intended audience, which necessarily increases the participation bar both in terms of required resources and in terms of trust.
+A federated network can alleviate some of the downsides of centralisation. However, "federation" implies limiting general participation by design, typically due to some resource or trust constraints, usually both.
 
-The trust requirement specifically has great potential to lead to a particularly centrally conttrolled network. For example, while running an email server is not particularly demanding, the trust requirements are still overall dicated by a few mail providers, and independent participation (i.e. personal email servers) are quite rare as a result.
+For example current federated protocols like [ActivityPub][activity-pub] are "push-first", meaning content is not published unless it is pushed to all of its intended audience, which is costlier (you need to push to multiple other servers, maintain user collections, manage inbox and outbox, etc.) and more trust-requiring (e.g. other servers need to trust you to not count you as spam), compared to a pull-based system (you just make your content available, anyone who desires can pull it).
+
+This design has great potential to gravitate towards a more centralised network. E-mail is a great example (specifically as ActivityPub is modelled after it): personal instances are rare, and most participation happens through a handful providers who also dictate the rules of the network, which seems a natural outcome considering the trust requirements of the network.
 
 <br>
 
 ## Why Should Non-Technical People Care?
 
-As mentioned above, in general fragmentation of flow of ideas and information is an essential problem affecting anyone. To be more specific, the following use cases would not be possible without a protocol for distributed social networking:
+As mentioned above, generally speaking, fragmentation of flow of ideas and information is an anti-thesis to evolution of internet itself. For example, the following use cases would only be possible with a protocol for distributed social networking:
 
 <br>
 
 > 🧭 **DISCOVERY** \
-> I find a new video blogger on a video sharing platform. I _subscribe_ to them right there. I now automatically get their content on the microblogging platform I frequent. I also automatically get notified of their podcasts, livestreams and even posts on their personal website on the same microblogging platform.
+> I find a new video blogger on a video sharing platform. I _subscribe_ to them right there. I now automatically get their content on the microblogging platform I frequent. I also automatically get notified of their podcasts, livestreams and even posts on their personal website on the same microblogging platform (or wherever else I choose to frequent).
 
 <br>
 
@@ -68,6 +68,15 @@ As mentioned above, in general fragmentation of flow of ideas and information is
 
 > 🧩 **PORTABILITY** \
 > I want to no longer be active on this photo-sharing platform I used to frequent, and instead be more active on a microblogging platform. I create an account on the microblogging platform and link the two accounts, my followers and friends not even noticing the change (except that I don't post photos as much).
+
+<br>
+
+## Why Such a Network Needs Multiple Platforms?
+
+For the same reasons we have multiple platforms today, despite a lot of content being cross-posted between them, and a lot of content creators and users actively participating in a multitude of them:
+
+- **Different Content Formats**: The main role of content platforms is to ease creation (and potentially but not necessarily consumption) of various forms of content.
+- **Different Discovery Needs**: As is today, some platforms specialise in distributing content using social graphs while others have stronger semantic or topical discovery mechanisms. With interoperable access to more content and alleviation of monopoly of big content platforms, there is potential for even more diversity and innovation on this front.
 
 <br>
 
