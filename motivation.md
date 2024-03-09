@@ -8,7 +8,7 @@ RISS aims to facilitate development of independent but interoperable tools, serv
 
 Because social interaction with existing content is one of the most successful "simplifiers" for content creation. Liking something someone else wrote is pretty easy, and with a press of a button, you've created some (tiny) content of your own. Commenting on someone else's post is far easier than writing one from scratch, and so on.
 
-This essentially democratises content creation on the internet, resulting in more people actively engaged on that front. This is why internet was created to begin with and what it should be all about: better circulation of ideas and information.
+This essentially democratises content creation on the internet, resulting in more people actively engaged in sharing and circulating ideas and information.
 
 A counter-argument for that sentiment might be the fact that lowering the barrier also results in a lot of noise, spam and outright harmful content as well (misinformation, fraud, etc). I personally don't see that as a reason to not further democratise content creation by making it easier and more accessible, but as a reason to focus on the problem of accessing and discovering useful content and separating it from said noise.
 
