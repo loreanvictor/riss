@@ -18,7 +18,7 @@ A counter-argument for that sentiment might be the fact that lowering the barrie
 
 Mainly because centralised networks fragment circulation of ideas and information.
 
-One tangible symptom of this defect is that centralised platforms will get more "spammy" over time. A centralised platform maintains a monopoly on access and discovery of its content (e.g. search and recommendation). The key strength of such a platform is typically in ease of content creation, which also produces more "noise", a problem that is exacerbated by a lagging access and discovery mechanism. The combination often leads to the platform playing catch-up with its own access and discovery needs and grow more "spammy" as its usage grows, in a self-destructive cycle.
+One tangible symptom of this defect is that centralised platforms will get more "spammy" over time. A centralised platform maintains a monopoly on access and discovery of its content (e.g. search and recommendation). The key strength of such a platform is typically ease of content creation, which also produces more "noise", a problem that is exacerbated by a lagging access and discovery mechanism. The combination often leads to the platform playing catch-up with its own access and discovery needs and grow more "spammy" as its usage grows, in a self-destructive cycle.
 
 Another practical downside is fragmentation of audiences and content. A viral post is typically cross-posted on multiple platforms, with walled-off discussions and interactions on each. Creators need to actively manage presence on multiple platforms and try to convert their audience from one platform to another to bridge these gaps. Users need to hop between apps to follow their desired content, and so on.
 
